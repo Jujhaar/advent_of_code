@@ -35,7 +35,7 @@ def sum_of_playable_games(file, max_cubes):
       good_games.add(game_id)
   return total
 
-print(sum_of_playable_games("day2file.txt", {"red": 12, "green": 13, "blue": 14}))
+print(sum_of_playable_games("files/day2file.txt", {"red": 12, "green": 13, "blue": 14}))
 
 # Part 2
 def sum_of_all_powers(file):
@@ -68,4 +68,4 @@ def sum_of_all_powers(file):
     sum_of_powers += power
   return sum_of_powers
 
-print(sum_of_all_powers("day2file.txt"))
+print(sum_of_all_powers("files/day2file.txt"))

@@ -16,7 +16,7 @@ def extract_digits(text):
   return digits
 
 
-with open('day1file.txt', "r") as file:
+with open('files/day1file.txt', "r") as file:
   lines = file.readlines()
 
 total = 0
