@@ -1,6 +1,6 @@
 import unittest
 
-from day12 import is_valid_arrangement
+from src.day12part1 import is_valid_arrangement
 
 
 class TestDay12(unittest.TestCase):
